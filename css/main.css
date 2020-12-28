@@ -1,0 +1,139 @@
+body {
+    background-color: #E3E3E3;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 15px;
+}
+
+.centering-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.center-column {
+    flex: 50%;
+    padding: 5px;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.about-me-image-black {
+    border: 3px dashed #eb1b22;
+    margin-top: 50px;
+    max-width: 700px;
+}
+
+.phone {
+    color: inherit;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+p.reviews {
+    font-size: 0.95em;
+    margin: 14px 30px;
+}
+
+.section-border {
+    border: 2px solid black;
+}
+
+.about-me-image-black2 {
+    border: 3px dashed #eb1b22;
+    text-align: center;
+    max-width: 700px;
+    display: none;
+}
+
+.map {
+    width: 350px;
+    height: 250px;
+    border: 0px;
+    margin: 5px 0px;
+}
+
+p.about-us {
+    font-size: 1.3em;
+    margin: 13px 40px;
+}
+
+p.more-about-us {
+    font-size: 1.2em;
+    margin: 13px 125px;
+}
+
+span.opening-times {
+    display: block;
+    margin: 20px 0px;
+}
+
+p.opening-times {
+    font-size: 1.2em;
+}
+
+p.what-we-offer {
+    font-size: 1.4em;
+}
+
+p.full-menu {
+    font-size: 1.4em;
+}
+
+.pub-images {
+    max-height: 225px;
+}
+
+div.opening-times , div.reviews {
+    background-color: #FAF8FF;
+}
+
+.logo-title {
+    max-width: 70%;
+}
+
+@media only screen and (max-device-width: 970px) {
+    .row {
+        flex-direction: column;
+    }
+    
+    .center-column {
+        order: 1;
+        padding: 5px;
+    }
+    
+    .right-column {
+        order: 2;
+        padding: 5px;
+    }
+
+    .left-column {
+        order: 3;
+        padding: 5px;
+    }
+
+    .about-me-image-black {
+        display: none;
+    }
+    
+    .about-me-image-black2 {
+        margin-top: 25px;
+        display: inline;
+    }
+
+    .more-about-us {
+        display: none;
+    }
+
+    .map {
+        width: 600px;
+        height: 300px;
+    }
+}
