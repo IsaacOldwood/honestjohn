@@ -1,4 +1,4 @@
 # The Honest John Pub
-This repo is the business site
+This repo is website
 
-https://thehonestjohnpub.github.io/
+https://thehonestjohnpub.netlify.app/
